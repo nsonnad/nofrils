@@ -22,6 +22,7 @@ hi Normal		term=NONE	cterm=NONE	ctermfg=0	ctermbg=230	gui=NONE	guifg=#000000	gui
 
 " Faded {{{
 hi Comment		term=NONE	cterm=NONE	ctermfg=3	ctermbg=NONE	gui=NONE	guifg=#CDCD00	guibg=NONE
+hi ColorColumn		term=NONE	cterm=NONE	ctermfg=3	ctermbg=NONE	gui=NONE	guifg=#CDCD00	guibg=NONE
 hi FoldColumn		term=NONE	cterm=NONE	ctermfg=240	ctermbg=3	gui=NONE	guifg=#585858	guibg=#CDCD00
 hi Folded		term=NONE	cterm=NONE	ctermfg=3	ctermbg=NONE	gui=NONE	guifg=#CDCD00	guibg=NONE
 hi LineNr		term=NONE	cterm=NONE	ctermfg=8	ctermbg=230	gui=NONE	guifg=#555555	guibg=#FFFFD7
@@ -46,12 +47,11 @@ hi Question		term=NONE	cterm=NONE	ctermfg=53	ctermbg=NONE	gui=NONE	guifg=#5F005F
 hi Search		term=NONE	cterm=NONE	ctermfg=15	ctermbg=6	gui=NONE	guifg=#FFFFFF	guibg=#00CDCD
 hi StatusLine		term=NONE	cterm=NONE	ctermfg=15	ctermbg=239	gui=NONE	guifg=#FFFFFF	guibg=#4E4E4E
 hi Todo	                term=NONE	cterm=NONE	ctermfg=10	ctermbg=NONE	gui=NONE	guifg=#00FF00   guibg=NONE
-hi VisualNOS		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=53	gui=NONE	guifg=NONE	guibg=#5F005F 
+hi VisualNOS		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=53	gui=NONE	guifg=NONE	guibg=#5F005F
 hi WarningMsg		term=NONE	cterm=NONE	ctermfg=9	ctermbg=15	gui=NONE	guifg=#FF5555	guibg=#FFFFFF
 " }}}
 
 " Reversed {{{
-hi ColorColumn		term=reverse	cterm=reverse	ctermfg=NONE	ctermbg=NONE	gui=reverse	guifg=NONE	guibg=NONE
 hi CursorColumn		term=reverse	cterm=reverse	ctermfg=NONE	ctermbg=NONE	gui=reverse	guifg=NONE	guibg=NONE
 hi DiffText		term=reverse	cterm=reverse	ctermfg=NONE	ctermbg=NONE	gui=reverse	guifg=NONE	guibg=NONE
 hi IncSearch		term=reverse	cterm=reverse	ctermfg=NONE	ctermbg=NONE	gui=reverse	guifg=NONE	guibg=NONE
